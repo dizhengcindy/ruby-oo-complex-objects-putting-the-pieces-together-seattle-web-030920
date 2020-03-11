@@ -7,6 +7,7 @@ class Shoe
   def brand
     @brand
   end
+  
   def color=(color) 
     @color=color
   end
@@ -20,18 +21,22 @@ class Shoe
   def size 
     @size
   end
+  
   def marterial=(marterial)
     @marterial = marterial
   end
+  
   def marterial
     @marterial
   end
-  def condition =(condition)
+  
+  def condition=(condition)
     @condition = condition
   end
+  
   def condition
     @condition
   end
-
+  
 
 end
