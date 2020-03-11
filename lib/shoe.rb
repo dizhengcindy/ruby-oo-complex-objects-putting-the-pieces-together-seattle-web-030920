@@ -13,4 +13,25 @@ class Shoe
   def color 
     @color
   end
+  
+  def size=(size)
+  @size = size 
+  end
+  def size 
+    @size
+  end
+  def marterial=(marterial)
+    @marterial = marterial
+  end
+  def marterial
+    @marterial
+  end
+  def condition =(condition)
+    @condition = condition
+  end
+  def condition
+    @condition
+  end
+
+
 end
