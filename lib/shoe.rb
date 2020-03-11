@@ -22,12 +22,12 @@ class Shoe
     @size
   end
   
-  def marterial=(marterial)
-    @marterial = marterial
+  def material=(material)
+    @material = material
   end
   
-  def marterial
-    @marterial
+  def material
+    @material
   end
   
   def condition=(condition)
